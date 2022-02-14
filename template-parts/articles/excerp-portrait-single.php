@@ -29,10 +29,6 @@
                     <?php the_post_thumbnail( 'medium' ); ?>                                     
                 </div> 
 
-                <div class="article-image__cloud article-image__cloud--small">
-                   <img src="<?php echo get_template_directory_uri(); ?>/img/cloud-small.svg" />                              
-                </div> 
-
             </div>
 
             <div class="excerp-portrait__text-block">

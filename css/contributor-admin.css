@@ -1032,7 +1032,7 @@ select.form-control:focus::-ms-value {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.45;
-  border-radius: 0.2rem;
+  border-radius: 5px;
 }
 
 .form-control-lg {
@@ -1627,7 +1627,7 @@ fieldset:disabled a.btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.45;
-  border-radius: 0.2rem;
+  border-radius: 5px;
 }
 
 .btn-block {
@@ -2173,7 +2173,7 @@ input[type=button].btn-block {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.45;
-  border-radius: 0.2rem;
+  border-radius: 5px;
 }
 
 .input-group-lg > .custom-select,
@@ -3931,9 +3931,7 @@ body {
   font-size: 1.125rem;
   font-weight: 400;
   min-height: 100vh;
-  background-image: url("../img/bg.png");
-  background-repeat: repeat;
-  background-size: 70%;
+  background-color: #F9F9F9;
 }
 
 .bg-white {
@@ -4078,7 +4076,8 @@ section > .container > .header {
 
 .highlight__inner {
   display: inline;
-  background: #F3F2FF;
+  background: #fff;
+  border-radius: 5px;
   padding: 0.25rem 0.5rem;
   -webkit-box-decoration-break: clone;
   -ms-box-decoration-break: clone;
@@ -4111,6 +4110,7 @@ section > .container > .header {
   align-items: flex-end;
   z-index: 0;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .article-image__thumbnail img {

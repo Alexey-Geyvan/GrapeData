@@ -13,15 +13,16 @@
       .article-info {
             display: block;
             position: absolute;
-            bottom: 1rem;
+            bottom: 0rem;
             left: 0;    
             z-index: 2;
+            background-color: $white;
+            padding: 1.25rem;
+            border-radius: 0 50px 0 $border-radius-lg;
+
+
             &__inner {   
-              justify-content: flex-start;                  
-              padding-left: 1.25rem;
-            }
-            @include media-breakpoint-down(sm) {                  
-                  bottom: 0.4rem;
+              justify-content: flex-start;
             }
       }
 

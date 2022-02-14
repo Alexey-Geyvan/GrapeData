@@ -23,9 +23,9 @@
                         <?php the_post_thumbnail(  ); ?>                                     
                     </div> 
 
-                    <div class="article-image__cloud article-image__cloud--left">
+                    <!-- <div class="article-image__cloud article-image__cloud--left">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/cloud-left.svg">                              
-                    </div>  
+                    </div>   -->
 
                     <div class="article-info">
                         <div class="article-info__inner">

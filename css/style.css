@@ -1032,7 +1032,7 @@ select.form-control:focus::-ms-value {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.45;
-  border-radius: 0.2rem;
+  border-radius: 5px;
 }
 
 .form-control-lg {
@@ -1627,7 +1627,7 @@ fieldset:disabled a.btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.45;
-  border-radius: 0.2rem;
+  border-radius: 5px;
 }
 
 .btn-block {
@@ -2173,7 +2173,7 @@ input[type=button].btn-block {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.45;
-  border-radius: 0.2rem;
+  border-radius: 5px;
 }
 
 .input-group-lg > .custom-select,
@@ -4011,9 +4011,7 @@ body {
   font-size: 1.125rem;
   font-weight: 400;
   min-height: 100vh;
-  background-image: url("../img/bg.png");
-  background-repeat: repeat;
-  background-size: 70%;
+  background-color: #F9F9F9;
 }
 
 .bg-white {
@@ -4158,7 +4156,8 @@ section > .container > .header {
 
 .highlight__inner {
   display: inline;
-  background: #F3F2FF;
+  background: #fff;
+  border-radius: 5px;
   padding: 0.25rem 0.5rem;
   -webkit-box-decoration-break: clone;
   -ms-box-decoration-break: clone;
@@ -4191,6 +4190,7 @@ section > .container > .header {
   align-items: flex-end;
   z-index: 0;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .article-image__thumbnail img {
@@ -4988,8 +4988,6 @@ section > .container > .header {
   height: 100%;
   z-index: 0;
   overflow: hidden;
-  -webkit-clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
-  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -5142,6 +5140,7 @@ section > .container > .header {
   position: relative;
   width: 100%;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .excerp-fullwidth__image-block:before {
@@ -5244,16 +5243,18 @@ section > .container > .header {
 .articles-excerp-big .article-info {
   display: block;
   position: absolute;
-  bottom: 1rem;
+  bottom: 0rem;
   left: 0;
   z-index: 2;
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 0 50px 0 15px;
 }
 
 .articles-excerp-big .article-info__inner {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  padding-left: 1.25rem;
 }
 
 .articles-excerp-big__text-block {
@@ -5317,7 +5318,7 @@ section > .container > .header {
 }
 
 .excerp-portrait__text-block {
-  padding: 0 15px 15px 15px;
+  padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5325,12 +5326,13 @@ section > .container > .header {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
   background: #fff;
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  margin-top: -40px;
+  z-index: 5;
+  border-radius: 0 50px 0 0;
 }
 
 .excerp-portrait__category-button {
@@ -5363,6 +5365,10 @@ section > .container > .header {
   padding-top: 51.1111111111%;
 }
 
+.excerp-portrait .article-image__thumbnail {
+  border-radius: 15px 15px 0 0;
+}
+
 .excerp-portrait:hover .excerp-portrait__title {
   color: #2350F0;
   text-decoration: none;
@@ -5379,6 +5385,7 @@ section > .container > .header {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .form-with-image__image-wrap:hover .form-with-image__image {
@@ -5417,6 +5424,9 @@ section > .container > .header {
 .form-with-image__form {
   padding: 3rem 1.875rem;
   height: 100%;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .form-with-image .form-control {
@@ -10041,10 +10051,6 @@ input.wpcf7-not-valid {
 
   .articles-excerp-big__image-block {
     margin-bottom: 1.25rem;
-  }
-
-  .articles-excerp-big .article-info {
-    bottom: 0.4rem;
   }
 
   .articles-excerp-big__title {
