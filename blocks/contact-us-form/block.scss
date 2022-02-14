@@ -1,0 +1,36 @@
+@import '../../scss/_variables';
+@import '../../vendor/bootstrap/scss/mixins/breakpoints';
+
+.contact-us{
+
+    background: $white;
+    padding: 3.75rem 2.75rem;
+    &__title {
+        font-size: 1.875rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        @include media-breakpoint-only(md) {
+            font-size: 1.5rem;
+        }
+    }
+    &__info-item {
+        margin-bottom: 1.5rem;
+        span {
+            font-weight: 400;
+            font-size: 1rem;
+            color:$gray-2;
+        }
+        i {
+            margin-right: 0.5rem;
+        }
+       
+    }
+
+    .textarea-msg {
+        textarea {
+            width: 100%; 
+            padding: 0.5rem 1rem;
+        }
+         
+        }
+}

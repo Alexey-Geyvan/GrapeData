@@ -1,0 +1,34 @@
+.sidebar-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sidebar-banner:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 194.4444444444%;
+}
+
+.sidebar-banner__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: -webkit-transform 1.2s ease;
+  transition: -webkit-transform 1.2s ease;
+  -o-transition: transform 1.2s ease;
+  transition: transform 1.2s ease;
+  transition: transform 1.2s ease, -webkit-transform 1.2s ease;
+  background-position: bottom center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.sidebar-banner:hover .sidebar-banner__image {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}

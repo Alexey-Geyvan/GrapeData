@@ -1,0 +1,123 @@
+// colors
+$primary: #D65720;
+$secondary: #2350F0;
+$secondary-hover: #567BFF;
+
+$theme-colors: (
+  "primary": $primary,  
+  "secondary": $secondary  
+);
+
+$body-bg: #F3F2FF;
+$body-color: #1C1C1C; 
+
+$white: #fff;
+$whit-hover:#d5d5d5;
+
+$gray-1: #171717;
+$gray-2: #9A9A9A;
+$gray-3: #404040;
+$gray-4: #E8E8EB;
+
+$dark: #242424;
+$darker: #000;
+$black: #000;
+
+$blue-light:#DEE2FD;
+$gray-blue-1: #EAEBFD;
+$gray-blue-2: #D0E4F2;
+
+
+
+
+
+
+
+
+//image hovers
+$image-transition: transform 1.2s ease;
+$image-transform: scale(1.05);
+
+
+
+// fonts 
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-weight-bold: 500;
+$font-weight-bolder: 700;
+
+$font-size-base: 1rem;
+$h1-font-size: 4.8rem;
+$h2-font-size: 4.688rem;
+$h3-font-size: 2.25rem;
+$h4-font-size: 1.75rem;
+$h5-font-size: 0.875rem;
+$small-font-size: 0.875rem;
+$headings-margin-bottom: 1.3rem;
+
+$line-height-base: 1.45;
+$line-height-lg: 1.45;
+$line-height-sm: 1.45;
+
+$border-radius: 10px;
+$border-radius-lg: 15px;
+
+// forms 
+$input-btn-padding-y: 0.5rem;     
+$input-btn-padding-x: 1rem;
+$input-btn-font-size: 0.8rem;
+$input-color: $body-color;
+$input-btn-focus-box-shadow: 0 0 0.3rem 0.3rem rgba(255, 132, 79, 0.15);
+$input-font-size: 1rem;
+$input-line-height: 2;
+$input-border-radius: 0;
+$input-placeholder-color: $body-color;
+
+
+//links
+$link-color: $secondary;
+$link-hover-color: darken($secondary, 15%);
+
+// buttons 
+$btn-padding-y: 0.875rem;
+$btn-padding-x: 3.625rem;
+$btn-font-size: 1.125rem;
+$btn-line-height: 1.4rem;
+$btn-font-weight: 400;
+
+$btn-padding-y-lg: 1rem;
+$btn-padding-x-lg: 4rem;
+$btn-font-size-lg: 1rem;
+
+$btn-font-weight: 700;
+$btn-border-radius: 999px;
+$btn-border-radius-lg: 999px;
+
+//navbar
+$navbar-brand-font-size: 1.25rem;
+$navbar-link-font-size: 0.875rem;
+
+// $nav-link-padding-y: 0.5rem;
+$nav-link-padding-x: 0.875rem;
+$navbar-nav-link-padding-x: 0.875rem;
+$navbar-padding-y: 2rem;
+// $navbar-padding-x: 0;  
+
+// breakpoints 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1030px,
+  xl: 1430px
+);
+
+// container 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1000px,
+  xl: 1410px
+);
+
+
+

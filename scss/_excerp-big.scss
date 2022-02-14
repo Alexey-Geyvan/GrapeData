@@ -1,0 +1,95 @@
+@import '_variables';
+@import '../vendor/bootstrap/scss/mixins/breakpoints';
+
+
+.articles-excerp-big {
+
+	&__image-block {  
+            @include media-breakpoint-down(sm) {
+                  margin-bottom: 1.25rem;   
+            }     
+	} 
+    
+      .article-info {
+            display: block;
+            position: absolute;
+            bottom: 1rem;
+            left: 0;    
+            z-index: 2;
+            &__inner {   
+              justify-content: flex-start;                  
+              padding-left: 1.25rem;
+            }
+            @include media-breakpoint-down(sm) {                  
+                  bottom: 0.4rem;
+            }
+      }
+
+	&__text-block {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;          
+
+            @include media-breakpoint-up(xl) {
+                  padding-top: 3.375rem;
+                  padding-bottom: 3.375rem;
+            }
+            
+            @include media-breakpoint-up(lg) {
+                  padding-left: 35px;
+            }
+            @include media-breakpoint-between(md,lg){
+                  justify-content: center;
+            }
+	}
+
+	&__title {
+            display: block;
+            font-size: 1.75rem;
+            color:$gray-3;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-bottom: 1.25rem;
+            &:hover{
+                  color:$secondary;
+                  text-decoration: none;
+            }
+            @include media-breakpoint-down(sm) {
+                  font-size: 1.6rem;
+            }
+	}
+
+	&__description {
+            color:$gray-2;
+            margin-bottom: 3rem;
+            @include media-breakpoint-between(md,lg){
+                  margin-bottom: 1rem;
+            }
+            @include media-breakpoint-down(md){
+                  font-size: 0.875rem;
+            }
+            @include media-breakpoint-down(sm){
+                  margin-bottom: 0;  
+            }
+            
+	}
+
+	&__category-button {
+            margin-bottom: 1rem;
+           
+	}
+
+	&__button {
+            align-self: flex-start;
+            margin-top: auto;
+            @include media-breakpoint-down(lg) {
+              display: none;
+            }
+	}
+
+      &:hover {
+            .article-image__thumbnail {
+                  img { transform: $image-transform; }
+            }
+      }
+}

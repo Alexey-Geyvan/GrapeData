@@ -1,0 +1,191 @@
+.banner-1 {
+
+    position: relative; 
+    height: 100%;
+
+    &__image {
+        height: 100%;
+    }
+
+    &__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-inner{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transform: scale(1);
+            @include  media-breakpoint-only(lg) {
+                transform: scale(0.7);
+                margin-left: -10%;
+                margin-right: -10%;
+            }
+            @include  media-breakpoint-only(md) {
+                transform: scale(0.75);
+                margin-left: -10%;
+                margin-right: -10%;
+            }
+        }
+    } 
+
+    &__pre-title {
+        font-family: Montserrat;
+        font-size: 2.688rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 3.313rem;
+        letter-spacing: 0px;
+        text-align: center;
+        color:$white;
+        text-transform: uppercase;
+    }
+
+    &__title {        
+        position: relative;          
+        font-size: 3.375rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 4.625rem;
+        letter-spacing: 0px;
+        text-align: center;  
+        color:#FDC872;
+        text-transform: uppercase;
+        padding: 0 0.5rem;        
+
+        background: url('/wp-content/themes/decentralized/img/other/under-title.png;');
+        background-size: contain;
+        background-position:center center;
+        background-repeat: no-repeat;
+       
+        span {
+            z-index: 2;    
+            display: block;
+        }
+        /*
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top:0;
+            bottom: 0;
+            display: block;
+            background: url('/wp-content/themes/decentralized/img/other/under-title.png;');
+            background-size: contain;
+            background-position:center center;
+            background-repeat: no-repeat;
+            z-index: 1;
+        }*/
+    }
+
+    &__after-title {
+        font-family: Montserrat;
+        font-size: 2.688rem;
+        font-style: normal;
+        font-weight: 800;       
+        letter-spacing: 0px;
+        text-align: center;
+        color:$white;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+
+        span {
+            color:#FDC872;
+        }
+
+    }   
+
+    &__description {
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2rem;
+        letter-spacing: 0px;
+        text-align: center;
+        color:#fff;
+        margin-bottom: 3rem;
+    }
+
+    &__button {
+        min-width: 50%;
+    }   
+}
+
+
+
+
+
+.banner-2 {
+
+    position: relative; 
+    height: 100%;
+    
+    &__image {
+        height: 100%;
+    }
+
+    &__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 2.5rem;
+
+        &-inner{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: center;
+
+            transform: scale(1);
+            @include  media-breakpoint-only(lg) {
+                transform: scale(0.7);
+                margin-left: -10%;
+                margin-right: -10%;
+            }
+            @include  media-breakpoint-only(md) {
+                transform: scale(0.75);
+                margin-left: -10%;
+                margin-right: -10%;
+            }
+        }     
+    }   
+
+    &__title {
+        font-size: 49px;
+        font-weight: 500;
+        line-height: 60px;
+        letter-spacing: 0px;
+        color:$white;
+        margin-bottom: 1.125rem;        
+    }
+
+    &__after-title {
+        font-weight: 700;
+        color:$white;
+        background:$primary;
+        padding: 0 0.25rem;
+    }
+
+    &__description {
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2rem;
+        letter-spacing: 0px;
+        color:$white;
+    }
+}
+

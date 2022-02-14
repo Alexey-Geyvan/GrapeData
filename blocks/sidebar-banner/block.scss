@@ -1,0 +1,32 @@
+@import '../../scss/_variables';
+@import '../../vendor/bootstrap/scss/mixins/breakpoints';
+
+.sidebar-banner {
+
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    &:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: (35 / 18) * 100%;
+    }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transition: $image-transition;
+        background-position: bottom center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+    &:hover {
+        .sidebar-banner__image { transform: $image-transform;} 
+    }
+}

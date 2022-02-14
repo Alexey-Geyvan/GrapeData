@@ -1,0 +1,35 @@
+.contact-us {
+  background: #fff;
+  padding: 3.75rem 2.75rem;
+}
+
+.contact-us__title {
+  font-size: 1.875rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.contact-us__info-item {
+  margin-bottom: 1.5rem;
+}
+
+.contact-us__info-item span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #9A9A9A;
+}
+
+.contact-us__info-item i {
+  margin-right: 0.5rem;
+}
+
+.contact-us .textarea-msg textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 1029.98px) {
+  .contact-us__title {
+    font-size: 1.5rem;
+  }
+}

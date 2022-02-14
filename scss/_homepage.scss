@@ -1,0 +1,21 @@
+@import '_variables';
+@import '../vendor/bootstrap/scss/mixins/breakpoints';
+
+.page-template-template-homepage {
+
+    .category-slider {
+        padding-top: 1.875rem;
+    }   
+
+    .articles-excerp-big {
+        margin-bottom: 3.75rem;
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 0.5rem;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    } 
+        
+}
+

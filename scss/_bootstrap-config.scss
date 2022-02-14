@@ -1,0 +1,38 @@
+
+// requiered
+@import "../vendor/bootstrap/scss//functions";
+@import "../vendor/bootstrap/scss//variables";
+@import "../vendor/bootstrap/scss//mixins";
+// map-remove 
+$theme-colors: map-remove($theme-colors, "info", "warning", "danger", "success", "dark", "light");
+$colors: map-remove($colors, "blue", "red", "indigo", "pink", "orange", "yellow", "teal", "cyan", "gray", "gray-dark", "green", "purple");
+// optional 
+@import "../vendor/bootstrap/scss//root";
+@import "../vendor/bootstrap/scss//reboot";
+@import "../vendor/bootstrap/scss//type";
+@import "../vendor/bootstrap/scss//images";
+@import "../vendor/bootstrap/scss//grid";
+@import "../vendor/bootstrap/scss//forms";
+@import "../vendor/bootstrap/scss//buttons";
+@import "../vendor/bootstrap/scss//button-group";
+@import "../vendor/bootstrap/scss//dropdown";
+@import "../vendor/bootstrap/scss//input-group";
+@import "../vendor/bootstrap/scss//custom-forms";
+@import "../vendor/bootstrap/scss//nav";
+@import "../vendor/bootstrap/scss//navbar";
+@import "../vendor/bootstrap/scss//transitions";
+// @import "../vendor/bootstrap/scss//list-group";
+// @import "../vendor/bootstrap/scss//close";
+// @import "../vendor/bootstrap/scss//toasts";
+
+
+// utilities
+@import "../vendor/bootstrap/scss//utilities/clearfix";
+@import "../vendor/bootstrap/scss//utilities/display";
+@import "../vendor/bootstrap/scss//utilities/flex";
+@import "../vendor/bootstrap/scss//utilities/sizing";
+@import "../vendor/bootstrap/scss//utilities/text";
+// @import "../vendor/bootstrap/scss//utilities/position";
+@import "../vendor/bootstrap/scss//utilities/spacing";
+// @import "../vendor/bootstrap/scss//utilities/background";
+

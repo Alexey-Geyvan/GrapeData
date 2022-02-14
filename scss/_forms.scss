@@ -1,0 +1,113 @@
+@import '_variables';
+@import '../vendor/bootstrap/scss/mixins/breakpoints';
+
+.form-with-image {
+
+    &__image-col{ 
+        @include media-breakpoint-only(md){
+            margin-bottom: 1.8rem;
+        }
+        @include media-breakpoint-down(sm) {
+            display: none;
+        }
+     }
+
+    &__image-wrap {       
+       position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        &:hover {
+            .form-with-image__image { transform: $image-transform;} 
+        }
+        &:before {
+            display: block;
+            content: "";
+            width: 100%;
+            padding-top: (3 / 5) * 100%;
+        }
+        
+    }
+
+    &__image {        
+        width:100%; 
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transition: $image-transition;
+    }
+
+    &__title{
+        max-width: 70%;
+        text-align: center;
+    }
+
+    &__form{
+        padding: 3rem 1.875rem;
+        height: 100%;
+        @include media-breakpoint-only(lg){
+            padding: 1.5rem;
+        }
+    }
+
+    &__button {
+        // margin-top: 1.875rem;
+    }
+
+    .form-control{
+        margin-bottom: 1.5rem;
+        @include media-breakpoint-only(lg){
+            margin-bottom: 1rem;
+            height: calc(1.5em + 1rem + 2px);
+            font-size: 0.875rem;
+        }
+    }
+
+    .form-check-label {
+        color:$gray-2;
+        font-size: 0.688rem;
+        a { color: $body-color; }
+    }
+    .form-check-input {
+        margin-top: 0.5rem;
+    }
+}
+
+
+//contact form 7
+.input-submit { 
+    position: relative;
+    .wpcf7-spinner { 
+        position: absolute;
+        right: 0;
+        top: 0.75rem;        
+     }
+}
+
+.wpcf7-not-valid-tip { display: none !important; }
+input.wpcf7-not-valid { border-color: $primary; }
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 1em 0;
+    padding: 0.3em 1em;
+    font-size: 1rem;
+}
+
+.wpcf7-checkbox{
+    .wpcf7-list-item-label {
+        color:$gray-2;
+        font-size: 0.688rem;
+        a { color: $body-color; }
+    }
+
+    & > span { margin-left: 0;}
+
+    label { display: flex; }
+    input { margin-right: 5px;}
+} 
+
+
+

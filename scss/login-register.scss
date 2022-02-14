@@ -1,0 +1,85 @@
+
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+@import '_variables';
+
+// requiered
+@import "../vendor/bootstrap/scss/functions";
+@import "../vendor/bootstrap/scss/variables";
+@import "../vendor/bootstrap/scss/mixins";
+// map-remove 
+$theme-colors: map-remove($theme-colors, "info", "warning", "danger", "success", "dark", "light");
+$colors: map-remove($colors, "blue", "red", "indigo", "pink", "orange", "yellow", "teal", "cyan", "gray", "gray-dark", "green", "purple");
+// optional 
+@import "../vendor/bootstrap/scss/root";
+@import "../vendor/bootstrap/scss/reboot";
+
+
+
+@import "../scss/_theme";
+
+
+#login {
+    width: 570px;
+    max-width: 100%;
+
+    @include media-breakpoint-between(md,lg) {
+        padding: 3% 0 0;
+    }
+
+    h1 a, .login h1 a {
+    background-image: url('../img/logo.png');
+    height: 60px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: none !important;
+    //padding-bottom: 10px;
+    }
+
+    form {
+       
+        padding: 3.75rem 4.375rem;
+        border: 1px solid transparent;
+        box-shadow: none;
+        @include media-breakpoint-between(md,lg) {
+            padding: 2.5rem 3rem;
+        }
+        @include media-breakpoint-down(sm) {
+            padding: 2rem 1rem;
+        }
+
+        .input {
+            font-size: 16px;
+            padding: 1rem 1.5rem;
+            margin: 0 6px 24px 0;                   
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: $btn-padding-y $btn-padding-x;
+            font-size: $btn-font-size;
+            line-height: $btn-line-height;
+            background:$secondary;
+            transition: $btn-transition;
+            &:hover {
+                background:darken($secondary, 10%);
+            }
+        }
+        input:focus {
+            border-color: #eda788;
+            outline: 0;            
+            box-shadow: 0 0 0.3rem 0.3rem #ff844f31;
+        }
+        p { font-size: 1rem;  }
+    } 
+
+    label {
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+
+    .button.wp-hide-pw {
+        height: calc(100% - 24px);
+    }
+}
+

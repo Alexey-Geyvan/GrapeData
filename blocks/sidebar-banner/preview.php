@@ -1,0 +1,1 @@
+<img src="/wp-content/themes/decentralized/img/preview/banner-sidebar.jpg" alt="">

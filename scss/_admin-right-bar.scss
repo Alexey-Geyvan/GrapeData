@@ -1,0 +1,39 @@
+
+$admin-bar-width:200px;
+#adminmenu, #adminmenu .wp-submenu, #adminmenuwrap  {    
+    width: $admin-bar-width;
+    background:none;
+}
+#adminmenuback {
+    width: $admin-bar-width;
+    background: linear-gradient(180deg, #133097 0%, #355FF4 100%);
+}
+#wpcontent, #wpfooter {
+    margin-left: $admin-bar-width;
+}
+#adminmenu .wp-submenu {
+    left: $admin-bar-width;
+    background: #2350F0;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+    background: #2350F0;
+    color: #fff;
+}
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top>a:focus {
+    color: $white;
+    background: none;
+}
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+    position: relative;
+    color: $white;
+    background: #234ff0a6;
+}
+
+
+
+
+@media (min-width: 961px) {
+    .auto-fold .interface-interface-skeleton {
+        left: $admin-bar-width;
+    }
+}

@@ -1,0 +1,32 @@
+.about-us-left .block__text-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.about-us-left .block__text {
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.about-us-left .block__text strong {
+  color: #2350F0;
+  font-weight: 600;
+}
+
+.about-us-left .block__image {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1030px) {
+  .about-us-left .block__image-wrap {
+    padding-right: 25%;
+  }
+}
