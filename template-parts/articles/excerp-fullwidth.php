@@ -21,7 +21,7 @@
             
             <div class="col-md-4 col-xl-3 excerp-fullwidth__text-block">
 
-                <div class="excerp-fullwidth__category-button category-button"><?php the_category(', '); ?></div>
+                <div class="excerp-fullwidth__category-button category-button"><?php the_category(' '); ?></div>
 
                 <a class="excerp-fullwidth__title highlight" href="<?php the_permalink(); ?>"  >
                     <span class="highlight__inner">
