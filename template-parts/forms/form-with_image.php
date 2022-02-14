@@ -13,7 +13,7 @@ $banner_settig = get_field('default-banner', 'option');
             </div>
             <div class="col-12 col-lg-4 form-with-image__form-col">
                 <div class="form-with-image__form bg-white">
-                    <?php echo do_shortcode( '[contact-form-7 id="61"]' ); ?>
+                    <?php echo do_shortcode( '[contact-form-7 id="81"]' ); ?>
                 </div>       
             </div>
         </div>

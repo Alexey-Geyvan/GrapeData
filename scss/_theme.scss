@@ -26,10 +26,8 @@ body {
     font-family: 'Montserrat', sans-serif;    
     font-size: 1.125rem;
     font-weight: 400;   
-    min-height: 100vh;    
-    background-image:url('../img/bg.png');
-    background-repeat: repeat;
-    background-size:70%;
+    min-height: 100vh;
+    background-color: #F9F9F9;
 }
 
 
@@ -198,7 +196,8 @@ section > .container > .header { margin-bottom: 2.5rem; }
 .highlight { 
     &__inner {
         display: inline;
-        background: $body-bg;
+        background: $white;
+        border-radius: $border-radius-sm;
         padding: 0.25rem 0.5rem;   
         -webkit-box-decoration-break: clone;
         -ms-box-decoration-break: clone;
@@ -234,6 +233,7 @@ section > .container > .header { margin-bottom: 2.5rem; }
     align-items:flex-end;
     z-index: 0;
     overflow: hidden;
+    border-radius: $border-radius-lg;
 
     img {
       position: absolute;     
