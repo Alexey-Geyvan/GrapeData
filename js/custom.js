@@ -44,7 +44,7 @@ $(document).ready(function () {
       infinite: true,
       dots: false,
       arrows: true,
-    
+      
       responsive: [{      
           breakpoint: 1410,
           settings: {

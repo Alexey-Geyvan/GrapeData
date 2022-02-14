@@ -4,6 +4,33 @@
 
 .articles-excerp-big {
 
+      &__gradient{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: .5;
+            transition: all .5s ease-in-out;
+            top: 0;
+            border-radius: $border-radius-lg;
+      }
+
+      &__image-title{
+            top: 0;
+            position: absolute;
+            z-index: 2;
+            padding: 3.75rem 0 0 3.75rem;
+            max-width: 60%;
+            color: $white;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-weight: 400;
+
+            @include media-breakpoint-down(lg) { max-width: 80%; }  
+
+            @include media-breakpoint-down(md) { max-width: 100%; padding: 3.75rem; font-size: 1.75rem;}
+            @include media-breakpoint-down(xs) { display: none; }  
+      }
+
 	&__image-block {  
             @include media-breakpoint-down(sm) {
                   margin-bottom: 1.25rem;   
@@ -19,7 +46,7 @@
             background-color: $white;
             padding: 1.25rem;
             border-radius: 0 50px 0 $border-radius-lg;
-
+            min-width: 55%;
 
             &__inner {   
               justify-content: flex-start;

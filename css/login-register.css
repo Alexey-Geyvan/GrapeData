@@ -351,6 +351,10 @@ html {
   scroll-behavior: smooth;
 }
 
+[onclick] {
+  cursor: pointer;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
@@ -725,9 +729,9 @@ section > .container > .header {
 }
 
 .post-cta:hover .post-cta__image {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 .share-social__text {
