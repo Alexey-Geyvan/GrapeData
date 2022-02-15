@@ -25,15 +25,18 @@
 
 .num-card {
 
-    background: $gray-blue-1;
+    background: $white;
     padding: 6.25rem 5rem 3.75rem 2.75rem;
     position: relative;
     margin-bottom: 30px;
+    border-radius: $border-radius-lg;
+    box-shadow: 0px 10px 31px rgba(0, 0, 0, 0.05);
 
     &__number {
         position: absolute;
         top:0;
-        left:2.75rem;
+        left:0; 
+        border-radius: 0 0 35px 0;
         width:4.375rem;
         height: 4.375rem;
         display: flex;
@@ -43,6 +46,7 @@
         font-weight: 500;
         letter-spacing: 2px;
         color:$white;  
+        background: linear-gradient(252.57deg, #07CEDB -15.72%, #45F457 101.17%), linear-gradient(180deg, #1638B1 0%, #0D0049 100%);
     }
 
     &__text {
@@ -59,38 +63,38 @@
 
 
 
-.about-us-cards__left-col {
-    .num-card {
-        &:nth-of-type(1) {
-            .num-card__number {
-                background:#2350F0;
-            }            
-        }
-        &:nth-of-type(2) {
-            .num-card__number {
-                background:#35BDB5;
-            }            
-        }
-        &:nth-of-type(3) {
-            .num-card__number {
-                background: #B64AF0;
-            }            
-        }  
-    }
-}
+// .about-us-cards__left-col {
+//     .num-card {
+//         &:nth-of-type(1) {
+//             .num-card__number {
+//                 background:#2350F0;
+//             }            
+//         }
+//         &:nth-of-type(2) {
+//             .num-card__number {
+//                 background:#35BDB5;
+//             }            
+//         }
+//         &:nth-of-type(3) {
+//             .num-card__number {
+//                 background: #B64AF0;
+//             }            
+//         }  
+//     }
+// }
 
-.about-us-cards__right-col {
-    .num-card {
-        &:nth-of-type(1) {
-            .num-card__number {
-                background:#F6723A;
-            }            
-        }
-        &:nth-of-type(2) {
-            .num-card__number {
-                background:#E8B24B;
-            }            
-        }        
-    }
-}
+// .about-us-cards__right-col {
+//     .num-card {
+//         &:nth-of-type(1) {
+//             .num-card__number {
+//                 background:#F6723A;
+//             }            
+//         }
+//         &:nth-of-type(2) {
+//             .num-card__number {
+//                 background:#E8B24B;
+//             }            
+//         }        
+//     }
+// }
 

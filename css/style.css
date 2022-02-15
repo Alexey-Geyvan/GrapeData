@@ -4660,6 +4660,24 @@ section > .container > .header {
   padding-top: 51.1111111111%;
 }
 
+.all-categories__item-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  background-size: 150%;
+  background-position: 70% 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border-radius: 15px;
+}
+
+.all-categories__item-gradient:hover {
+  background-position: 0 0;
+}
+
 .all-categories__item-name {
   color: #fff !important;
   font-size: 1.5rem;
@@ -5015,6 +5033,10 @@ section > .container > .header {
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+.category-slider__item-gradient:hover {
+  background-position: 0 0;
 }
 
 .category-slider__item-image {
