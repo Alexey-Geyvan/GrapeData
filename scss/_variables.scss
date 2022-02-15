@@ -29,6 +29,7 @@ $gray-blue-2: #D0E4F2;
 
 $cat-green: #149C84;
 $cat-green-light: rgba(35, 240, 92, 0.1);
+$gray-green: rgba(129, 209, 150, 0.3);
 
 
 
@@ -60,6 +61,7 @@ $line-height-base: 1.45;
 $line-height-lg: 1.45;
 $line-height-sm: 1.45;
 
+$border-radius-xs: 3px;
 $border-radius-sm: 5px;
 $border-radius: 10px;
 $border-radius-lg: 15px;
@@ -77,8 +79,8 @@ $input-placeholder-color: $body-color;
 
 
 //links
-$link-color: $secondary;
-$link-hover-color: darken($secondary, 15%);
+$link-color: $cat-green;
+$link-hover-color: darken($cat-green, 15%);
 
 // buttons 
 $btn-padding-y: 0.875rem;
@@ -94,7 +96,6 @@ $btn-font-size-lg: 1rem;
 $btn-font-weight: 700;
 $btn-border-radius: 999px;
 $btn-border-radius-lg: 999px;
-
 //navbar
 $navbar-brand-font-size: 1.25rem;
 $navbar-link-font-size: 0.875rem;

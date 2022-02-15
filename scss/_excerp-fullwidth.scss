@@ -134,7 +134,6 @@
     &__button {   
 
         margin-right: auto;
-        color: $white;
         @include media-breakpoint-only(lg) {
             display: none;
         }  

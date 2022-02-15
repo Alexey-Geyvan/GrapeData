@@ -145,13 +145,13 @@ sup {
 }
 
 a {
-  color: #34BEED;
+  color: #149C84;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #1196c3;
+  color: #0b584b;
   text-decoration: underline;
 }
 
@@ -407,6 +407,10 @@ section {
 
 section > .container > .header {
   margin-bottom: 2.5rem;
+}
+
+.btn-secondary {
+  color: #fff;
 }
 
 .category-links {
