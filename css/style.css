@@ -3,7 +3,7 @@
 :root {
   --white: #fff;
   --primary: #D65720;
-  --secondary: #2350F0;
+  --secondary: #34BEED;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -147,13 +147,13 @@ sup {
 }
 
 a {
-  color: #2350F0;
+  color: #34BEED;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0d33ba;
+  color: #1196c3;
   text-decoration: underline;
 }
 
@@ -1474,46 +1474,46 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #2350F0;
-  border-color: #2350F0;
+  color: #212529;
+  background-color: #34BEED;
+  border-color: #34BEED;
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #0f3cde;
-  border-color: #0e39d2;
+  background-color: #14b1e6;
+  border-color: #13a8db;
 }
 
 .btn-secondary:focus,
 .btn-secondary.focus {
   color: #fff;
-  background-color: #0f3cde;
-  border-color: #0e39d2;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(68, 106, 242, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(68, 106, 242, 0.5);
+  background-color: #14b1e6;
+  border-color: #13a8db;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(49, 167, 208, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(49, 167, 208, 0.5);
 }
 
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-  color: #fff;
-  background-color: #2350F0;
-  border-color: #2350F0;
+  color: #212529;
+  background-color: #34BEED;
+  border-color: #34BEED;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #0e39d2;
-  border-color: #0d36c6;
+  background-color: #13a8db;
+  border-color: #129fcf;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus,
 .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(68, 106, 242, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(68, 106, 242, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(49, 167, 208, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(49, 167, 208, 0.5);
 }
 
 .btn-outline-primary {
@@ -1555,51 +1555,51 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #2350F0;
-  border-color: #2350F0;
+  color: #34BEED;
+  border-color: #34BEED;
 }
 
 .btn-outline-secondary:hover {
-  color: #fff;
-  background-color: #2350F0;
-  border-color: #2350F0;
+  color: #212529;
+  background-color: #34BEED;
+  border-color: #34BEED;
 }
 
 .btn-outline-secondary:focus,
 .btn-outline-secondary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(35, 80, 240, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(35, 80, 240, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(52, 190, 237, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(52, 190, 237, 0.5);
 }
 
 .btn-outline-secondary.disabled,
 .btn-outline-secondary:disabled {
-  color: #2350F0;
+  color: #34BEED;
   background-color: transparent;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active,
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
-  color: #fff;
-  background-color: #2350F0;
-  border-color: #2350F0;
+  color: #212529;
+  background-color: #34BEED;
+  border-color: #34BEED;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(35, 80, 240, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(35, 80, 240, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(52, 190, 237, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(52, 190, 237, 0.5);
 }
 
 .btn-link {
   font-weight: 400;
-  color: #2350F0;
+  color: #34BEED;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #0d33ba;
+  color: #1196c3;
   text-decoration: underline;
 }
 
@@ -3444,12 +3444,12 @@ a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #2350F0 !important;
+  color: #34BEED !important;
 }
 
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #0d33ba !important;
+  color: #1196c3 !important;
 }
 
 .text-body {
@@ -3961,7 +3961,7 @@ a.text-secondary:focus {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #2350F0;
+  background-color: #34BEED;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -3978,7 +3978,7 @@ a.text-secondary:focus {
 
 .header .menu-item-type-custom:nth-last-child(1):hover {
   text-decoration: none;
-  background-color: #0d33ba;
+  background-color: #1196c3;
 }
 
 .header .menu-item-type-custom:nth-last-child(1):focus,
@@ -4068,12 +4068,12 @@ section > .container > .header {
   font-size: 0.875rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: #2350F0;
+  color: #149C84;
   text-transform: uppercase;
 }
 
 .category-links a {
-  color: #2350F0;
+  color: #149C84;
   margin-right: 0.125rem;
   border-radius: 99px;
   -webkit-transition: color 0.2s ease-in-out;
@@ -4082,7 +4082,7 @@ section > .container > .header {
 }
 
 .category-links a:hover {
-  color: #0d33ba;
+  color: #0b584b;
   text-decoration: none;
 }
 
@@ -4096,11 +4096,11 @@ section > .container > .header {
 
 .category-button a {
   font-size: 0.75rem;
-  color: #2350F0;
+  color: #149C84;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-align: center;
-  background-color: #DEE2FD;
+  background-color: rgba(35, 240, 92, 0.1);
   border: 1px solid transparent;
   border-radius: 99px;
   padding: 0.5rem 1rem;
@@ -4119,20 +4119,20 @@ section > .container > .header {
 
 .category-button a:hover {
   background-color: transparent;
-  border-color: #2350F0;
+  border-color: #149C84;
   text-decoration: none;
 }
 
 .btn-flat {
   background: none;
-  border: 2px solid #2350F0;
+  border: 2px solid #34BEED;
   color: #000;
   font-weight: 500;
   letter-spacing: 0.05em;
 }
 
 .btn-flat:hover {
-  background: #2350F0;
+  background: #34BEED;
   color: #fff;
 }
 
@@ -4154,7 +4154,7 @@ section > .container > .header {
 }
 
 .breadcrumbs__link:hover {
-  color: #2350F0;
+  color: #34BEED;
   text-decoration: none;
 }
 
@@ -4399,7 +4399,7 @@ section > .container > .header {
 }
 
 .share-social__link svg path {
-  fill: #2350F0;
+  fill: #34BEED;
 }
 
 .share-social__link:hover {
@@ -4548,7 +4548,7 @@ section > .container > .header {
 }
 
 .article .comments-area #wpdcom .wpd-prim-button {
-  background-color: #2350F0;
+  background-color: #34BEED;
 }
 
 .article-tags {
@@ -4593,7 +4593,7 @@ section > .container > .header {
 
 .article .ez-toc-btn-default {
   background: #dee2fd;
-  color: #2350F0 !important;
+  color: #34BEED !important;
 }
 
 .archive .excerp-portrait {
@@ -5053,7 +5053,7 @@ section > .container > .header {
   line-height: 0px;
   font-size: 0px;
   cursor: pointer;
-  background: #2350F0;
+  background: #34BEED;
   color: #fff;
   top: 50%;
   -webkit-transform: translate(0, -50%);
@@ -5063,6 +5063,7 @@ section > .container > .header {
   border: none;
   outline: none;
   z-index: 2;
+  border-radius: 999px;
   -webkit-transition: background 0.5s ease;
   -o-transition: background 0.5s ease;
   transition: background 0.5s ease;
@@ -5073,7 +5074,7 @@ section > .container > .header {
 .slick-next:hover,
 .slick-next:focus {
   outline: none;
-  background: #0d33ba;
+  background: #1196c3;
 }
 
 .slick-prev:hover:before,
@@ -5211,7 +5212,7 @@ section > .container > .header {
 }
 
 .excerp-fullwidth__title:hover {
-  color: #2350F0;
+  color: #34BEED;
   text-decoration: none;
 }
 
@@ -5221,6 +5222,7 @@ section > .container > .header {
 
 .excerp-fullwidth__button {
   margin-right: auto;
+  color: #fff;
 }
 
 .fullwidth-slider {
@@ -5326,7 +5328,7 @@ section > .container > .header {
 }
 
 .articles-excerp-big__title:hover {
-  color: #2350F0;
+  color: #34BEED;
   text-decoration: none;
 }
 
@@ -5416,7 +5418,7 @@ section > .container > .header {
 }
 
 .excerp-portrait:hover .excerp-portrait__title {
-  color: #2350F0;
+  color: #34BEED;
   text-decoration: none;
 }
 
@@ -5650,8 +5652,8 @@ input.wpcf7-not-valid {
 }
 
 .footer__submit:hover {
-  background-color: #2350F0;
-  border-color: #2350F0;
+  background-color: #34BEED;
+  border-color: #34BEED;
 }
 
 .footer__submit:hover path {
