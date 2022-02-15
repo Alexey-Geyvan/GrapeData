@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 footer__info-block">
-				<img src="<?php echo get_template_directory_uri(  );  ?>/img/logo-white.svg" alt="logo" class="footer__logo">
+				<img src="<?php echo get_template_directory_uri(  );  ?>/img/logo-white.png" alt="logo" class="footer__logo">
 				
 				<?php
 					wp_nav_menu( array(

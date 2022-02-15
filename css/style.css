@@ -3963,12 +3963,17 @@ a.text-secondary:focus {
   user-select: none;
   background-color: #34BEED;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 999px;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.header .menu-item-type-custom:nth-last-child(1) > a {
+  padding-left: 2.188rem;
+  padding-right: 2.188rem;
 }
 
 .header .menu-item-type-custom:nth-last-child(1) span {
