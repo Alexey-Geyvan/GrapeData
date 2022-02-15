@@ -147,13 +147,13 @@ sup {
 }
 
 a {
-  color: #34BEED;
+  color: #149C84;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #1196c3;
+  color: #0b584b;
   text-decoration: underline;
 }
 
@@ -1594,12 +1594,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #34BEED;
+  color: #149C84;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #1196c3;
+  color: #0b584b;
   text-decoration: underline;
 }
 
@@ -4064,6 +4064,10 @@ section > .container > .header {
   margin-bottom: 2.5rem;
 }
 
+.btn-secondary {
+  color: #fff;
+}
+
 .category-links {
   font-size: 0.875rem;
   font-weight: 600;
@@ -4531,6 +4535,7 @@ section > .container > .header {
 
 .article .post-cta {
   margin-bottom: 1.8rem;
+  border-radius: 3px;
 }
 
 .article .wp-block-image {
@@ -4557,7 +4562,7 @@ section > .container > .header {
 
 .article-tags a {
   padding: 0.5rem 1.25rem;
-  background-color: #D0E4F2;
+  background-color: rgba(129, 209, 150, 0.3);
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
@@ -4567,11 +4572,12 @@ section > .container > .header {
   color: #404040;
   margin-right: 1rem;
   margin-bottom: 0.5rem;
+  border-radius: 3px;
 }
 
 .article-tags a:hover {
   text-decoration: none;
-  background-color: #EAEBFD;
+  background-color: rgba(73, 189, 103, 0.3);
 }
 
 .article-tags a:last-child {
@@ -4594,6 +4600,14 @@ section > .container > .header {
 .article .ez-toc-btn-default {
   background: #dee2fd;
   color: #34BEED !important;
+}
+
+.article .article-image.articles-excerp-big .article-image__thumbnail {
+  border-radius: 3px;
+}
+
+.article .article-image.articles-excerp-big .article-info {
+  border-radius: 0 50px 0 3px;
 }
 
 .archive .excerp-portrait {
@@ -5074,7 +5088,7 @@ section > .container > .header {
 .slick-next:hover,
 .slick-next:focus {
   outline: none;
-  background: #1196c3;
+  background: #0b584b;
 }
 
 .slick-prev:hover:before,
@@ -5222,7 +5236,6 @@ section > .container > .header {
 
 .excerp-fullwidth__button {
   margin-right: auto;
-  color: #fff;
 }
 
 .fullwidth-slider {

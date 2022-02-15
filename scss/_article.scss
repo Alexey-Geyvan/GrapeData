@@ -127,6 +127,7 @@
 
     .post-cta { 
         margin-bottom: 1.8rem; 
+        border-radius: $border-radius-xs;
     }
 
     .wp-block-image { 
@@ -166,7 +167,7 @@
         //border-top:1px solid $border-color;
         a {
             padding: 0.5rem 1.25rem;
-            background-color: $gray-blue-2;
+            background-color: $gray-green;
             font-size: 1rem;
             font-weight: 400;
             text-decoration: none;
@@ -174,9 +175,10 @@
             color: $gray-3;
             margin-right: 1rem;
             margin-bottom: 0.5rem;
+            border-radius: $border-radius-xs;
             &:hover{
                 text-decoration: none;
-                background-color: $gray-blue-1;
+                background-color: darken($gray-green, 15%);
             }
             &:last-child {
                 margin-right: 0;
@@ -196,5 +198,15 @@
     .ez-toc-btn-default {
         background: #dee2fd;
         color:$secondary !important;
+    }
+
+    .article-image.articles-excerp-big{
+        .article-image__thumbnail{
+            border-radius: $border-radius-xs;
+        }
+    
+        .article-info{
+            border-radius: 0 50px 0 $border-radius-xs;
+        }
     }
 }

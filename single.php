@@ -29,10 +29,6 @@
 
                         <div class="article-image__thumbnail">
                             <?php the_post_thumbnail(  ); ?>                                     
-                        </div> 
-
-                        <div class="article-image__cloud article-image__cloud--left">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/cloud-left.svg">                              
                         </div>  
 
                         <div class="article-info">
@@ -106,7 +102,7 @@
                     $category_link = get_category_link( $category_id );
                     $category_name = get_cat_name( $category_id );
                 ?>
-        		<h2 class="header">Latest news from <a href="<?php echo $category_link; ?>"><?php echo $category_name; ?></a></h2>
+        		<h2 class="header">More from <a href="<?php echo $category_link; ?>"><?php echo $category_name; ?></a></h2>
 				<?php get_template_part( 'template-parts/articles/excerp', 'portrait-single' ); ?>
                 <?php
                     // If comments are open or we have at least one comment, load up the comment template.
