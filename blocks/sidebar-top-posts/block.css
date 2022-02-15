@@ -13,9 +13,9 @@
 }
 
 .sidebar-posts__item:hover .sidebar-posts__image-wrapper img {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 .sidebar-posts__item:hover .sidebar-posts__title {

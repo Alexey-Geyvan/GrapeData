@@ -97,11 +97,11 @@ section > .container > .header { margin-bottom: 2.5rem; }
     font-size: 0.875rem;
     font-weight: 600;
     letter-spacing: 0.05em;
-    color:$secondary;
+    color:$cat-green;
     text-transform: uppercase;
 
     a {   
-      color:$secondary; 
+      color:$cat-green; 
       margin-right: 0.125rem;
       //border:1px solid transparent; 
       border-radius: 99px;
@@ -111,7 +111,7 @@ section > .container > .header { margin-bottom: 2.5rem; }
       &:hover {
         // border:1px solid $secondary;        
         // padding: 0.5rem 1rem;
-        color:darken($secondary, 15%);
+        color:darken($cat-green, 15%);
         text-decoration: none;
       }
 
@@ -127,11 +127,11 @@ section > .container > .header { margin-bottom: 2.5rem; }
   flex-wrap: wrap;
   a {
     font-size: 0.75rem;
-    color:$secondary;
+    color:$cat-green;
     font-weight: 600;
     letter-spacing: 0.05em;
     text-align: center;
-    background-color:$blue-light;
+    background-color:$cat-green-light;
     border:1px solid transparent;
     border-radius: 99px;
     padding: 0.5rem 1rem;
@@ -142,7 +142,7 @@ section > .container > .header { margin-bottom: 2.5rem; }
     transition: $btn-transition;
     &:hover {
       background-color:transparent;
-      border-color: $secondary;
+      border-color: $cat-green;
       text-decoration: none;
     }
   }
