@@ -195,9 +195,12 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
+.category-slider {
 
-.slick-list {margin: 0 -10px;}
-.slick-slide>div {padding: 0 10px;}
+    .slick-list {margin: 0 -10px;}
+    .slick-slide>div {padding: 0 10px;}
+    
+}
 
 
 .slick-list { width: 100%;}
