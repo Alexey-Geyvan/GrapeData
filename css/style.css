@@ -5491,7 +5491,9 @@ section > .container > .header {
 
 .form-with-image__image {
   width: 100%;
-  height: auto;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
   position: absolute;
   top: 0;
   right: 0;

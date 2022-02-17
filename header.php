@@ -25,7 +25,8 @@
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="col col-xl-3 navbar-brand-col">
 				<a class="navbar-brand" href="/">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" class="navbar-brand__logo">
+					<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" class="navbar-brand__logo"> -->
+					marketresearchtoday
 				</a>
 			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-main-navbar-collapse-1" aria-controls="bs-main-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'decentralized' ); ?>">
