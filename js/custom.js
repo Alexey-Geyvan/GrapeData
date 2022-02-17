@@ -40,7 +40,7 @@ $(document).ready(function () {
    //slider for category-list
   $(".category-slider__list").slick({
       autoplay: false,
-      slidesToShow: 6,
+      slidesToShow: 5,
       infinite: true,
       dots: false,
       arrows: true,
