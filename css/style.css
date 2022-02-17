@@ -5067,6 +5067,7 @@ section > .container > .header {
   text-decoration: none;
   color: #fff;
   max-width: 80%;
+  font-size: 1rem;
 }
 
 .category-slider__item-name:hover {

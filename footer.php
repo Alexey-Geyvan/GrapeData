@@ -35,7 +35,6 @@
 						</button>	
 					</div>				
 				</form>
-				<div class="footer__copyright w-100 text-center text-md-left mt-4 mt-md-0">Sponsored by Iagon</div>
 			</div>
 			<div class="col-12 footer__copyright d-md-none">©2022 All rights reserved</div>
 		</div>
