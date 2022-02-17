@@ -15,7 +15,7 @@
 				<div class="category-slider__item-inner">
 					<div class="category-slider__item-gradient" style="background-image: linear-gradient(85deg, <?php echo $color; ?> 0%, rgba(0,0,0,.7) 80%);"></div>
 					<div class="category-slider__item-image" style="background-image:url('<?php echo $image; ?>');" > </div>
-					<h5 class="category-slider__item-name">
+					<h5 class="category-slider__item-name font-weight-bolder">
 						<?php echo $cat_name; ?>
 					</h5>
 				</div>				

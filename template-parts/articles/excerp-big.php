@@ -21,7 +21,7 @@
             
             <div class="col-md-8 col-lg-7 articles-excerp-big__image-block" onclick="window.location.href='<?php the_permalink(); ?>'">  
                 <div class="articles-excerp-big__image  article-image">
-                    <h3 class="articles-excerp-big__image-title"><?php the_title(); ?></h3>
+                    <!-- <h3 class="articles-excerp-big__image-title"><?php the_title(); ?></h3> -->
                     <div class="articles-excerp-big__gradient" style="background-image: linear-gradient(85deg, <?php echo $color; ?> 0%, rgba(0,0,0,1) 100%);"></div>
                     <div class="article-image__thumbnail" >
                         <?php the_post_thumbnail(  ); ?>                                     
