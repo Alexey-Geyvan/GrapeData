@@ -5166,11 +5166,11 @@ section > .container > .header {
   right: auto;
 }
 
-.slick-list {
+.category-slider .slick-list {
   margin: 0 -10px;
 }
 
-.slick-slide > div {
+.category-slider .slick-slide > div {
   padding: 0 10px;
 }
 
