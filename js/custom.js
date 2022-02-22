@@ -83,8 +83,7 @@ $(document).ready(function () {
       } else {
         $('nav.navbar').addClass('scrolled');
       }
-    } else {
-      console.log($(document).scrollTop())
+    } else {      
       if ( $(document).scrollTop() > 20 ){
         $('nav.navbar').addClass('scrolled');
       } else {
@@ -100,4 +99,3 @@ $(document).ready(function () {
 });
 
 
-alert($(document).scrollTop());
