@@ -22,7 +22,7 @@
         padding-top: 0;
     }
     .navbar {     
-        background:none;
+        background:none;        
         &.scrolled{
             background: $body-bg;
         }
@@ -31,3 +31,4 @@
       
 }
 
+.page-template-template-homepage .navbar:not(scrolled){color:$white;}

@@ -3928,6 +3928,9 @@ a.text-secondary:focus {
   right: 0;
   top: 0;
   background: #F9F9F9;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .navbar.scrolled {
@@ -4486,6 +4489,10 @@ section > .container > .header {
 
 .page-template-template-homepage .navbar.scrolled {
   background: #F9F9F9;
+}
+
+.page-template-template-homepage .navbar:not(scrolled) {
+  color: #fff;
 }
 
 .article__content {

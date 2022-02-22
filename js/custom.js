@@ -1,8 +1,6 @@
 
 // 'use strict';
 
-
-
 $.fn.isOnScreen = function(){
     var win = $(window);
     var viewport = {
@@ -16,23 +14,6 @@ $.fn.isOnScreen = function(){
     bounds.bottom = bounds.top + this.outerHeight();
     return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
 };
-
-
-function createCookie(name, value, days) {
-  var expires;
-    
-  if (days) {
-      var date = new Date();
-      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-      expires = "; expires=" + date.toGMTString();
-  }
-  else {
-      expires = "";
-  }
-    
-  document.cookie = escape(name) + "=" + 
-      escape(value) + expires + "; path=/";
-}
 
 
 $(document).ready(function () {   
@@ -80,13 +61,7 @@ $(document).ready(function () {
   });
 
 
-  //top pop-up
-  // $('.pop-up__close').click(function () {
-  //   $('body').addClass('closed-pop-up');
-  //   createCookie("top_popup_state", "closed-pop-up", "1");
-  // });
-
-      
+       
   //mobile nav bg
   $('#bs-main-navbar-collapse-1').on('show.bs.collapse', function () {
     $('.overlay').fadeIn();
@@ -98,25 +73,31 @@ $(document).ready(function () {
     $('#bs-main-navbar-collapse-1').collapse('hide');
   });
 
-      
+    
+  
+  //sticky nav  
+  $(window).on('scroll', function(){   
+    if ( $('body').hasClass('home') ) {
+      if ( $('.page-header').isOnScreen() ) {
+          $('nav.navbar').removeClass('scrolled');
+      } else {
+        $('nav.navbar').addClass('scrolled');
+      }
+    } else {
+      console.log($(document).scrollTop())
+      if ( $(document).scrollTop() > 20 ){
+        $('nav.navbar').addClass('scrolled');
+      } else {
+        $('nav.navbar').removeClass('scrolled');
+      }
+    }
+  });  
 
 
-   /*
-    //scroll top    
-    $('#main').append('<a href="#" id="return-to-top"><i class="icon-chevron-up"></i></a>');
-    $(window).scroll(function() {
-        if ($(this).scrollTop() >= 150) {        
-            $('#return-to-top').fadeIn(400);    
-        } else {
-            $('#return-to-top').fadeOut(400); 
-        }
-    });
-    $('#return-to-top').click(function() {    
-        $('body,html').animate({
-            scrollTop : 0                      
-        }, 500);
-    });
-     */
-    AOS.init();
+
+  AOS.init();
 
 });
+
+
+alert($(document).scrollTop());
