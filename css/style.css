@@ -3921,6 +3921,14 @@ a.text-secondary:focus {
   margin-left: auto !important;
 }
 
+.navbar-light .navbar-brand svg .txt {
+  fill: #000;
+}
+
+.navbar-dark .navbar-brand svg .txt {
+  fill: #fff;
+}
+
 .navbar {
   z-index: 30;
   position: fixed;

@@ -17,6 +17,22 @@
 }
 
 
+
+.navbar-brand {
+  
+    svg {
+      .txt {
+        .navbar-light &{
+          fill:#000;
+        }
+        .navbar-dark &{
+          fill:#fff;
+        }
+      }
+    }
+  
+}
+
 .navbar {
     z-index: 30;
     position: fixed;
