@@ -80,8 +80,13 @@ $(document).ready(function () {
     if ( $('body').hasClass('home') ) {
       if ( $('.page-header').isOnScreen() ) {
           $('nav.navbar').removeClass('scrolled');
+          $('nav.navbar').removeClass('navbar-light');
+          $('nav.navbar').addClass('navbar-dark');
       } else {
         $('nav.navbar').addClass('scrolled');
+        $('nav.navbar').removeClass('navbar-dark');
+        $('nav.navbar').addClass('navbar-light');
+        
       }
     } else {      
       if ( $(document).scrollTop() > 20 ){

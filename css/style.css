@@ -4491,10 +4491,6 @@ section > .container > .header {
   background: #F9F9F9;
 }
 
-.page-template-template-homepage .navbar:not(scrolled) {
-  color: #fff;
-}
-
 .article__content {
   margin-bottom: 5.625rem;
 }
