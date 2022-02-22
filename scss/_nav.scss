@@ -19,6 +19,16 @@
 
 .navbar {
     z-index: 30;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: $body-bg;
+    
+    &.scrolled {        
+        padding: 1rem;
+    }
+
     .nav-link {
       font-size: $navbar-link-font-size; 
       letter-spacing: 0;
@@ -75,7 +85,9 @@
   
   .header {
 
-    width:100%;
+    width:100%;    
+    padding-top: 6.5rem;
+    
 
     .menu-item-type-custom {
       &:nth-last-child(3) {

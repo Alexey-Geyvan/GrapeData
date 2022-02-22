@@ -46,7 +46,7 @@ body {
   line-height: 1.45;
   color: #1C1C1C;
   text-align: left;
-  background-color: #F3F2FF;
+  background-color: #F9F9F9;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -360,11 +360,25 @@ body {
   font-size: 1.125rem;
   font-weight: 400;
   min-height: 100vh;
-  background-color: #F9F9F9;
 }
 
 .bg-white {
   background-color: #fff;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.text-gradient-green {
+  color: #38E0C2;
+  background: -webkit-linear-gradient(141.82deg, #38E0C2 19.42%, #2FA0DF 95.05%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-bottom: 0.2rem;
 }
 
 section {
@@ -386,6 +400,27 @@ section {
 
 .header a:hover {
   text-decoration: none;
+}
+
+.page-header {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  margin-bottom: 6rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-header__title {
+  font-size: 3.438rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.page-header__subtitle {
+  font-size: 1.563rem;
+  letter-spacing: 0;
+  font-weight: 400;
 }
 
 .page-title {
@@ -825,6 +860,13 @@ section > .container > .header {
   height: calc(100% - 24px);
 }
 
+@media (min-width: 768px) {
+  .page-header {
+    border-radius: 0 0 15px 15px;
+    overflow: hidden;
+  }
+}
+
 @media (min-width: 1030px) {
   .page-subtitle {
     max-width: 75%;
@@ -834,6 +876,25 @@ section > .container > .header {
 }
 
 @media (max-width: 767.98px) {
+  .page-header {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    min-height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
   .highlight__inner {
     background: #f3f2ffbd;
     padding: 0.07rem 0.5rem;
