@@ -9,6 +9,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 
+<?php
+
+$nav_color='';
+
+if (is_front_page()) {
+	$nav_color='navbar-dark';
+} else {
+	$nav_color='navbar-light';
+}
+
+?>
 
 <?php wp_head(); ?>
 </head>
@@ -19,7 +30,7 @@
 	<header class="header">
 		<div class="overlay"></div>	
 
-		<nav class="navbar navbar-expand-lg navbar-light" role="navigation">		
+		<nav class="navbar navbar-expand-lg <?php echo $nav_color; ?>" role="navigation">		
 		  <div class="container">
 
 			<!-- Brand and toggle get grouped for better mobile display -->
