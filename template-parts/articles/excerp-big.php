@@ -32,10 +32,10 @@
                                 <img class="article-info__user-image" src="<?php grd_get_author_avatar($auth_id); ?>" />
                                 <div class="article-info__user-name"><?php the_author(); ?></div>
                             </div>
-                            <!-- <div class="article-info__date">
+                            <div class="article-info__date">
                                 <div class="article-info__date-icon"></div>
                                 <div class="article-info__date-text"><?php echo get_the_date(); ?></div>
-                            </div> -->
+                            </div>
                         </div>                   
                     </div> 
 
