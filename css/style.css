@@ -3921,12 +3921,25 @@ a.text-secondary:focus {
   margin-left: auto !important;
 }
 
+.navbar-brand svg {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
 .navbar-light .navbar-brand svg .txt {
   fill: #000;
 }
 
 .navbar-dark .navbar-brand svg .txt {
   fill: #fff;
+}
+
+.scrolled .navbar-brand .svg {
+  margin-bottom: -1.5rem;
+}
+
+.scrolled .navbar-brand .txt {
+  display: none;
 }
 
 .navbar {
@@ -3966,6 +3979,10 @@ a.text-secondary:focus {
 .navbar .navbar-row {
   position: relative;
   width: 100%;
+}
+
+.navbar .navbar-brand-col {
+  margin-right: 1rem;
 }
 
 .header {

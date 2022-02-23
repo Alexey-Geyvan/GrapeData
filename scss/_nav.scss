@@ -18,19 +18,28 @@
 
 
 
-.navbar-brand {
-  
+.navbar-brand {  
     svg {
+      margin-top: -1rem;
+      margin-bottom: -1rem;
       .txt {
         .navbar-light &{
           fill:#000;
         }
         .navbar-dark &{
           fill:#fff;
-        }
+        }        
       }
     }
-  
+    
+    .scrolled &{
+      .svg {
+        margin-bottom: -1.5rem;
+      }
+      .txt {
+        display: none;
+      }
+    }
 }
 
 .navbar {
@@ -79,6 +88,9 @@
       @include media-breakpoint-up(lg) {       
         
         }     
+    }
+    .navbar-brand-col {
+      margin-right: 1rem;
     }
     .navbar-nav-col {      
       @include media-breakpoint-down(md) {       

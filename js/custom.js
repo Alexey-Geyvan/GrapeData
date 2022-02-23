@@ -78,16 +78,15 @@ $(document).ready(function () {
   //sticky nav  
   $(window).on('scroll', function(){   
     if ( $('body').hasClass('home') ) {
-      if ( $('.page-header').isOnScreen() ) {
-          $('nav.navbar').removeClass('scrolled');
-          $('nav.navbar').removeClass('navbar-light');
-          $('nav.navbar').addClass('navbar-dark');
-      } else {
-        $('nav.navbar').addClass('scrolled');
-        $('nav.navbar').removeClass('navbar-dark');
-        $('nav.navbar').addClass('navbar-light');
-        
-      }
+        if ( $(document).scrollTop() < 120 ){
+            $('nav.navbar').removeClass('scrolled');
+            $('nav.navbar').removeClass('navbar-light');
+            $('nav.navbar').addClass('navbar-dark');
+        } else {
+          $('nav.navbar').addClass('scrolled');
+          $('nav.navbar').removeClass('navbar-dark');
+          $('nav.navbar').addClass('navbar-light');          
+        }
     } else {      
       if ( $(document).scrollTop() > 20 ){
         $('nav.navbar').addClass('scrolled');
