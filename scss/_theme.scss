@@ -19,10 +19,7 @@ html {
       font-size: 13px;
     }
   }
-  
-[onclick]{
-  cursor: pointer;
-}
+
   
 body {   
     font-family: 'Montserrat', sans-serif;
@@ -38,6 +35,10 @@ body {
 .bg-black {
     background-color: $black;
 }
+  
+[onclick]{
+  cursor: pointer;
+}
 
 .text-gradient-green  { 
   color:#38E0C2;       
@@ -48,7 +49,6 @@ body {
   padding-bottom: 0.2rem;
 }
     
-
 section {
     margin-bottom: 5.625rem;
 }
