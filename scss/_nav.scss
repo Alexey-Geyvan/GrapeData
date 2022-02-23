@@ -33,7 +33,7 @@
     }
     
     .scrolled &{
-      .svg {
+      svg {
         margin-bottom: -1.5rem;
       }
       .txt {
@@ -48,7 +48,7 @@
     left: 0;
     right: 0;
     top: 0;
-    background: $body-bg;
+    background: $white;
     transition: all 0.3s;
     
     &.scrolled {        
@@ -84,10 +84,7 @@
    
     .navbar-row { 
       position: relative;
-      width: 100%;
-      @include media-breakpoint-up(lg) {       
-        
-        }     
+      width: 100%;        
     }
     .navbar-brand-col {
       margin-right: 1rem;

@@ -3934,7 +3934,7 @@ a.text-secondary:focus {
   fill: #fff;
 }
 
-.scrolled .navbar-brand .svg {
+.scrolled .navbar-brand svg {
   margin-bottom: -1.5rem;
 }
 
@@ -3948,7 +3948,7 @@ a.text-secondary:focus {
   left: 0;
   right: 0;
   top: 0;
-  background: #F9F9F9;
+  background: #fff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -4513,7 +4513,7 @@ section > .container > .header {
 }
 
 .page-template-template-homepage .navbar.scrolled {
-  background: #F9F9F9;
+  background: #fff;
 }
 
 .article__content {
