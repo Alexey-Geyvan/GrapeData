@@ -3,7 +3,12 @@
 
 .all-categories {
 
+        margin-top: 5rem;
         margin-bottom: 5rem;
+
+        @include media-breakpoint-down(sm){
+            margin-top: 2rem; 
+        }
         
 		&__col {
             margin-bottom: 30px;

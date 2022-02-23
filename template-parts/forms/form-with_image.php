@@ -4,8 +4,9 @@ $banner_settig = get_field('default-banner', 'option');
 
 <section>
     <div class="container">
-
-        <h2 class="header text-center"><?php echo get_field('form_banner_header', 'option'); ?></h2>
+        <?php if( get_field('form_banner_header', 'option')  ) { ?>
+            <h2 class="header text-center"><?php echo get_field('form_banner_header', 'option'); ?></h2>
+        <?php } ?>
 
         <div class="row form-with-image">
             <div class="col-12 col-lg-8 form-with-image__image-col">                
