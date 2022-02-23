@@ -28,5 +28,11 @@
         }
     }
 
+    @include media-breakpoint-down(md){
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba($black, .5);
+        }
+    }
+
       
 }

@@ -119,5 +119,9 @@
             .article-image__thumbnail {
                   img { transform: $image-transform; }
             }
+
+            .articles-excerp-big__gradient{
+                  opacity: .65;
+            }
       }
 }

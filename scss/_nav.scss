@@ -11,10 +11,11 @@
     height: 100vh;
     display: none;
     opacity: 0.9;
-    background:$body-bg;
+    background:$white;
     z-index: 5;
   }
 }
+
 
 
 
@@ -92,12 +93,16 @@
     .navbar-nav-col {      
       @include media-breakpoint-down(md) {       
         position: absolute;
-        left: 15px;
-        right: 0;
-        top:0;
-        background:$body-bg;
+        left: 0px;
+        right: -30px;
+        top: 0;
         z-index: 9999;
-      }
+        max-width: unset;
+        width: unset;
+        padding-left: 20px;    
+        background:$white;
+      }      
+      
     }
 
 } 
