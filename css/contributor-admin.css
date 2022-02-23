@@ -3926,10 +3926,6 @@ html {
   scroll-behavior: smooth;
 }
 
-[onclick] {
-  cursor: pointer;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
@@ -3943,6 +3939,10 @@ body {
 
 .bg-black {
   background-color: #000;
+}
+
+[onclick] {
+  cursor: pointer;
 }
 
 .text-gradient-green {

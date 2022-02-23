@@ -3985,12 +3985,12 @@ a.text-secondary:focus {
   margin-right: 1rem;
 }
 
-.header {
+header {
   width: 100%;
   padding-top: 6.5rem;
 }
 
-.header .menu-item-type-custom:nth-last-child(1) {
+header .menu-item-type-custom:nth-last-child(1) {
   display: inline-block;
   font-weight: 700;
   text-align: center;
@@ -4009,31 +4009,31 @@ a.text-secondary:focus {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
-.header .menu-item-type-custom:nth-last-child(1) > a {
+header .menu-item-type-custom:nth-last-child(1) > a {
   padding-left: 2.188rem;
   padding-right: 2.188rem;
 }
 
-.header .menu-item-type-custom:nth-last-child(1) span {
+header .menu-item-type-custom:nth-last-child(1) span {
   color: #fff !important;
   letter-spacing: 0;
 }
 
-.header .menu-item-type-custom:nth-last-child(1):hover {
+header .menu-item-type-custom:nth-last-child(1):hover {
   text-decoration: none;
   background-color: #1196c3;
 }
 
-.header .menu-item-type-custom:nth-last-child(1):focus,
-.header .menu-item-type-custom:nth-last-child(1).focus {
+header .menu-item-type-custom:nth-last-child(1):focus,
+header .menu-item-type-custom:nth-last-child(1).focus {
   outline: 0;
 }
 
-.header .menu-item-type-custom:nth-last-child(1):not(:disabled):not(.disabled) {
+header .menu-item-type-custom:nth-last-child(1):not(:disabled):not(.disabled) {
   cursor: pointer;
 }
 
-.header .navbar-brand-col {
+header .navbar-brand-col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4049,10 +4049,6 @@ html {
   scroll-behavior: smooth;
 }
 
-[onclick] {
-  cursor: pointer;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
@@ -4066,6 +4062,10 @@ body {
 
 .bg-black {
   background-color: #000;
+}
+
+[onclick] {
+  cursor: pointer;
 }
 
 .text-gradient-green {
@@ -9002,7 +9002,7 @@ input.wpcf7-not-valid {
     margin-left: auto !important;
   }
 
-  .header .menu-item-type-custom:nth-last-child(3) {
+  header .menu-item-type-custom:nth-last-child(3) {
     margin-left: auto;
   }
 
@@ -10125,7 +10125,7 @@ input.wpcf7-not-valid {
     background: #fff;
   }
 
-  .header .menu-item-type-custom:nth-last-child(3) {
+  header .menu-item-type-custom:nth-last-child(3) {
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid #E8E8EB;
@@ -10361,7 +10361,7 @@ input.wpcf7-not-valid {
     min-width: 160px;
   }
 
-  .header .navbar-brand-col {
+  header .navbar-brand-col {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 150px;
     flex: 0 1 150px;
